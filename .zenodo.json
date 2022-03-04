@@ -1,0 +1,51 @@
+{
+    "description": "<p>A suite of Python scripts to facilitate research data management for High-Content Screens, specifically for supporting EUbOPEN's multiplex assay, depositing in BioImage Archive. This are the Python scripts to download into the &quot;root path&quot; as described in ...&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Instructions for use:</strong></p>\n\n<ul>\n\t<li>Download the file &quot;Archive.zip&quot; into your &quot;root path&quot;, and unzip it there.&nbsp;</li>\n\t<li>To install the required Python packages, go back to the Anaconda Prompt, and type:\n\t<ul>\n\t\t<li>\n\t\t<pre><code class=\"language-bash\">pip install numpy pandas</code></pre>\n\t\t&nbsp;</li>\n\t</ul>\n\t</li>\n</ul>", 
+    "title": "Python scripts for Research Data Management in High-Content Screening", 
+    "license": {
+        "id": "Apache-2.0"
+    }, 
+    "notes": "The source code is here: https://github.com/rgiessmann/data-management-for-high-content-screening", 
+    "keywords": [
+        "research data management",
+        "RDM",
+        "FAIR data",
+        "high-content screen",
+        "multiplex live-cell imagings"
+    ],
+    "creators": [
+    {
+        "affiliation": "Bayer AG; Institute for Globally Distributed Open Research and Education (IGDORE)",
+        "name": "Giessmann, Robert T.",
+        "orcid": "0000-0002-0254-1500"
+    }
+    ],
+    "contributors": [
+        {
+          "orcid": "0000-0002-0423-6593", 
+          "affiliation": "Goethe-Universit\u00e4t Frankfurt am Main", 
+          "type": "ProjectMember", 
+          "name": "Tjaden, Amelie"
+        }
+      ], 
+    "grants": [
+    {
+        "code": "802750", 
+        "links": {
+        "self": "https://zenodo.org/api/grants/10.13039/501100000780::802750"
+        }, 
+        "title": "FAIRplus", 
+        "acronym": "FAIRplus", 
+        "program": "H2020", 
+        "funder": {
+        "doi": "10.13039/501100000780", 
+        "acronyms": [], 
+        "name": "European Commission", 
+        "links": {
+            "self": "https://zenodo.org/api/funders/10.13039/501100000780"
+        }
+        }
+    }
+    ], 
+    "access_right": "open", 
+    "upload_type": "software"
+}
