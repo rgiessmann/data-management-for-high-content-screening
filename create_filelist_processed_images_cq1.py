@@ -34,7 +34,7 @@ for see, _ in df_experiments.groupby("compound map see corresponding excel table
         #print(i)
         #print(s.compound_name)
 
-        column_name_for_identification = "eubopen ID"
+        column_name_for_identification = "compound batch ID"
 
         if pandas.isna(s[column_name_for_identification]):
             continue
